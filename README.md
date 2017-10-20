@@ -239,3 +239,8 @@ then download json file and open it, copy and paste that to your client_secrets 
 
 ## Restart Apache
 1. Restart Apache `sudo service apache2 restart `
+
+## Reference
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+- https://github.com/SteveWooding/fullstack-nanodegree-linux-server-config/blob/master/README.md
+- https://discussions.udacity.com/t/app-not-running-after-all-this-time/362885
