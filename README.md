@@ -46,9 +46,7 @@ URL: `http://ec2-13-58-70-243.us-east-2.compute.amazonaws.com/`
 
 ## Add a new user named grader (sudo group)
 1. `sudo adduser grader`
-2. `nano /etc/sudoers`
-3. `touch /etc/sudoers.d/grader`
-4. `nano /etc/sudoers.d/grader`, add `ALL=(ALL:ALL) ALL`, then ctrl + x => yes and enter to quit and save
+2. `sudo usermod -aG sudo grader`
 
 ## Set ssh login using key-pair (private-public)
 1. generate keys at local by `ssh-keygen ~/.ssh/authorized_keys`, then you'll get two keys authorized_keys and authorized_keys.pub
